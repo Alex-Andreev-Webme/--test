@@ -1,0 +1,40 @@
+.apartment__label {
+	margin: 0 16px 0 0;
+	padding: 10px 16px;
+	font-weight: 500;
+	line-height: 1;
+	background-color: #f2faf0;
+	border-radius: 22px;
+	display: flex;
+}
+
+.apartment__label:last-child {
+	margin-right: 0;
+}
+
+@media screen and (max-width: 1024px) {
+	.apartment__label {
+		margin-right: 0;
+	}
+	.apartment__label:last-child {
+		margin-top: 8px;
+	}
+}
+
+@media screen and (max-width: 840px) {
+	.apartment__label {
+		margin-right: 16px;
+	}
+	.apartment__label:last-child {
+		margin-top: 0;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.apartment__label {
+		margin-right: 0;
+	}
+	.apartment__label:last-child {
+		margin-top: 8px;
+	}
+}

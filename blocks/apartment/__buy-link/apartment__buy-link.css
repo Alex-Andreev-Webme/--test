@@ -1,0 +1,41 @@
+.apartment__buy-link {
+	margin-top: 20px;
+	padding: 15px 50px;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1;
+	color: #383736;
+	text-decoration: none;
+	border-radius: 6px;
+	background-color: #fac62d;
+	transition: .2s ease;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.apartment__buy-link:hover {
+	cursor: pointer;
+	background-color: #f0b505;
+}
+
+.apartment__buy-link:active {
+	background-color: #e1ab08;
+}
+
+.apartment__buy-link::before {
+	content: url('../../../images/icons/btn-key.svg');
+	margin-right: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+	.apartment__buy-link {
+		margin-top: auto;
+	}
+}
+
+@media screen and (max-width: 840px) {
+	.apartment__buy-link {
+		margin-top: 24px;
+	}
+}

@@ -1,0 +1,23 @@
+.apartment__notifications {
+	margin-top: 18px;
+	display: flex;
+	align-items: flex-start;
+}
+
+@media screen and (max-width: 1024px) {
+	.apartment__notifications {
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 840px) {
+	.apartment__notifications {
+		flex-direction: row;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.apartment__notifications {
+		flex-direction: column;
+	}
+}

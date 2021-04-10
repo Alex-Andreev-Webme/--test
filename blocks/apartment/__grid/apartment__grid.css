@@ -1,0 +1,30 @@
+.apartment__grid {
+	margin-top: 8px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 12px 48px;
+}
+
+@media screen and (max-width: 1024px) {
+	.apartment__grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.apartment__grid {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.apartment__grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.apartment__grid {
+		margin-top: 16px;
+	}
+}

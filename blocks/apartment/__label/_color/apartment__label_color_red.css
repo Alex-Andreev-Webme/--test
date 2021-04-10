@@ -1,0 +1,8 @@
+.apartment__label_color_red {
+	color: #eb4b51;
+}
+
+.apartment__label_color_red::before {
+	content: url('../../../../images/icons/cross-red.svg');
+	margin-right: 10px;
+}

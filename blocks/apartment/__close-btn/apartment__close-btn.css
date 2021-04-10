@@ -1,0 +1,26 @@
+.apartment__close-btn {
+	padding: 0;
+	width: 28px;
+	height: 28px;
+	border: none;
+	outline: none;
+	border-radius: 4px;
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	background-color: transparent;
+	background-image: url('../../../images/icons/cross-close-default.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	transition: .2s ease;
+}
+
+.apartment__close-btn:hover {
+	cursor: pointer;
+	background-color: #f5f4f2;
+	background-image: url('../../../images/icons/cross-close-hovered.svg');
+}
+
+.apartment__close-btn:active {
+	background-color: #e7e4de;
+}

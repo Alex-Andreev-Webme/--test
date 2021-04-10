@@ -1,0 +1,8 @@
+.apartment__label_color_green {
+	color: #64b851;
+}
+
+.apartment__label_color_green::before {
+	content: url('../../../../images/icons/check-green.svg');
+	margin-right: 10px;
+}

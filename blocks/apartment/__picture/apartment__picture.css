@@ -1,0 +1,11 @@
+.apartment__picture {
+	display: block;
+	align-self: flex-start;
+}
+
+@media screen and (max-width: 425px) {
+	.apartment__picture {
+		margin-bottom: 24px;
+		align-self: center;
+	}
+}

@@ -1,0 +1,9 @@
+.apartment__description {
+	margin-left: 75px;
+}
+
+@media screen and (max-width: 425px) {
+	.apartment__description {
+		margin-left: 0;
+	}
+}
